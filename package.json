@@ -1,0 +1,59 @@
+{
+  "name": "particle_editor",
+  "version": "0.1.0",
+  "description": "小颗粒编辑器：1、界面由小粒度展示；2、写最少最小颗粒的代码。生成前端项目",
+  "author": "wenwu.shang",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "electron": "electron . & npm run serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "pack": "electron-packager ./ BV --platform=darwin --arch=x64 --out=../distss --asar -electron-version=4.0.1 --overwrite"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "electron": "^4.0.2",
+    "element-ui": "^2.4.11",
+    "querystring": "^0.2.0",
+    "vue": "^2.5.17",
+    "vue-codemirror": "^4.0.6",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.1",
+    "@vue/cli-plugin-eslint": "^3.0.1",
+    "@vue/cli-service": "^3.0.1",
+    "babel-eslint": "^10.0.1",
+    "electron-builder": "^20.38.4",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0-0",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

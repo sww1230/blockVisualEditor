@@ -1,0 +1,109 @@
+{
+    "location": {},
+    "relation": {},
+    "userInfo": {
+        "userName": "商文武"
+    },
+    "api": {
+        "logout": "/logout"
+    },
+    "systemName": "后台系统名称",
+    "menuList": {
+        "active": [
+            0,
+            0
+        ],
+        "submenuAcitve": "",
+        "menuData": {
+            "menuLink": [
+                {
+                    "name": "处理中心",
+                    "url": "/a",
+                    "children": [
+                        {
+                            "name": "选项一",
+                            "url": "/a1"
+                        },
+                        {
+                            "name": "选项二",
+                            "url": "/a2",
+                            "children": [
+                                {
+                                    "name": "导航一",
+                                    "url": "/a111"
+                                },
+                                {
+                                    "name": "导航二",
+                                    "url": "/a222",
+                                    "children": [
+                                        {
+                                            "name": "菜单一",
+                                            "url": "/a11122"
+                                        },
+                                        {
+                                            "name": "菜单二",
+                                            "url": "/a22233"
+                                        },
+                                        {
+                                            "name": "菜单三",
+                                            "url": "/a33344"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "导航三",
+                                    "url": "/a333"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "选项三",
+                            "url": "/a3"
+                        }
+                    ]
+                },
+                {
+                    "name": "消息中心",
+                    "url": "/b",
+                    "children": [
+                        {
+                            "name": "选项一",
+                            "url": "/b1"
+                        },
+                        {
+                            "name": "选项二",
+                            "url": "/b2"
+                        },
+                        {
+                            "name": "选项三",
+                            "url": "/b3"
+                        },
+                        {
+                            "name": "选项四",
+                            "url": "/b4"
+                        }
+                    ]
+                },
+                {
+                    "name": "订单管理",
+                    "url": "/cc"
+                }
+            ],
+            "otherLink": [
+                {
+                    "name": "dd",
+                    "url": "/dd"
+                },
+                {
+                    "name": "ee",
+                    "url": "/ee"
+                },
+                {
+                    "name": "ff",
+                    "url": "/ff"
+                }
+            ]
+        }
+    },
+    "projectPath": "/Users/apple/Desktop/ww"
+}
