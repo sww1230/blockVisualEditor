@@ -26,27 +26,27 @@
 
 ## 界面展示
 
-### 创建项目、项目列表
+#### 创建项目、项目列表
 ![image](https://raw.githubusercontent.com/sww1230/blockVisualEditor/master/pic/a.png)
 
-### 选择项目模板
+#### 选择项目模板
 ![image](https://raw.githubusercontent.com/sww1230/blockVisualEditor/master/pic/b.png)
 
-### 页面布局拆分、拖拽区块
+#### 页面布局拆分、拖拽区块
 ![image](https://raw.githubusercontent.com/sww1230/blockVisualEditor/master/pic/c.png)
 
-### 编辑区块代码
+#### 编辑区块代码
 ![image](https://raw.githubusercontent.com/sww1230/blockVisualEditor/master/pic/d.png)
 
-### apiMock接口文档、页面的公共数据
+#### apiMock接口文档、页面的公共数据
 ![image](https://raw.githubusercontent.com/sww1230/blockVisualEditor/master/pic/e.png)
 
-## Project setup
+## 安装依赖
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### 运行
 ```
 yarn run electron
 ```
