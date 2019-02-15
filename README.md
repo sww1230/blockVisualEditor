@@ -50,3 +50,5 @@ yarn install
 ```
 yarn run electron
 ```
+
+> 启动起来是黑屏，cmd命令执行完毕后，记的刷新下IDE哦...
